@@ -26,14 +26,14 @@ if ($id != 0) {
 ?>
 
 <body>
-  <h1>
-    <?php echo !$conectado ?? 'No conectado' ?>
-  </h1>
   <div class="container">
     <div class="d-flex justify-content-around align-items-center bg-warning">
       <h1>MiEmpresa</h1>
       <h2>Gestión de incidencias</h2>
     </div>
+    <h3>
+      <?php echo !$conectado ?? 'No conectado' ?>
+    </h3>
     <br>
     <h4>Borrar Registro</h4>
     <p>¿Estás seguro que deseas borrar el registro?</p>

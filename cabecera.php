@@ -1,5 +1,5 @@
 <?php
-//Cabecera común a todos los archivos, (Aun que no aplica el margin 0 ni padding 0 del reset de bootstrap)
+//Cabecera común a todos los archivos
 echo "
 <!DOCTYPE html>
 <html lang=\"es\">

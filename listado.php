@@ -17,6 +17,8 @@ if (isset($_GET['insertado'])) {
     $insertado = 'Actualizado';
   } else if ($_GET['insertado'] == 5) {
     $insertado = 'Error al actualizar';
+  } else if ($_GET['insertado'] == 6) {
+    $insertado = 'Error al subir el archivo al servidor';
   }
 }
 
